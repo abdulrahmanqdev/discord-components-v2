@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 discordjs components v2
+# 🤖 discordjs
 
 <p align="center">
   <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
@@ -33,10 +33,11 @@
 ## ✨ Özellikler
 
 - ⚡ Discord.js v14 desteği
+- 🎨 **Components V2 Desteği** (Container, Section, Accessory, Media Gallery)
 - 🗂️ Modüler slash komut yapısı (Public & Mod)
-- 📡 Event handler sistemi
-- 🔥 Firebase veritabanı entegrasyonu
-- 🔧 Tek dosyadan kolay yapılandırma (`botConfig.js`)
+- 📡 Gelişmiş event handler sistemi
+- 🍃 MongoDB (Mongoose) veritabanı entegrasyonu
+- � `.env` ile güvenli yapılandırma
 - 🖱️ Windows için hazır `start.bat` başlatma dosyası
 - 🛠️ Yardımcı fonksiyonlar için `tools.js`
 
@@ -49,7 +50,7 @@
 | Discord.js v14 | Discord API Kütüphanesi |
 | Node.js | Çalışma Ortamı |
 | JavaScript | Dil |
-| Firebase | Veritabanı |
+| MongoDB | Veritabanı |
 
 ---
 
@@ -63,7 +64,7 @@
 ### Kurulum
 
 ```bash
-git clone https://github.com/abdulrahmanqdev/discord-components-v2.git
+git clone https://github.com/abdulrahmanqdev/discordjs.git
 cd discordjs
 npm install
 ```
@@ -76,8 +77,10 @@ npm install
 module.exports = {
   developersID: ["developerId"],
   token: "token",
+  databaseURL: "firebase_database_url",
+  serviceAccountKey: require('./serviceAccountKey.json'),
 
-  playings: ["Lose bot #SOON"],
+  playings: ["/yardım | !yardım"],
   prefixs: ["!"],
 }
 ```
@@ -110,6 +113,7 @@ discordjs/
 │       ├── Public/               # Herkese açık komutlar
 │       └── mod System/            # Moderasyon komutları
 ├── index.js                      # Ana giriş noktası
+├── tools.js                      # Yardımcı fonksiyonlar
 ├── start.bat                     # Windows başlatma dosyası
 ├── package.json
 └── LICENSE
@@ -128,3 +132,4 @@ discordjs/
 ## 👤 Geliştirici
 
 **@abdulrahmanqdev**
+"# discord-components-v2" 
