@@ -75,7 +75,7 @@ module.exports = {
   developersID: ["developerId"],
   token: "token",
 
-    playings: ["Lose bot #SOON"],
+  playings: ["Lose bot #SOON"],
   prefixs: ["!"],
 }
 ```
