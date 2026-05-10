@@ -47,7 +47,7 @@
 | Discord.js v14 | Discord API Kütüphanesi |
 | Node.js | Çalışma Ortamı |
 | JavaScript | Dil |
-| MongoDB | Veritabanı | `İsteğe bağlı`
+| MongoDB | Veritabanı |
 
 ---
 
@@ -61,7 +61,7 @@
 ### Kurulum
 
 ```bash
-git clone https://github.com/abdulrahmanqdev/discordjs.git
+git clone https://github.com/abdulrahmanqdev/discord-components-v2.git
 cd discordjs
 npm install
 ```
@@ -74,10 +74,8 @@ npm install
 module.exports = {
   developersID: ["developerId"],
   token: "token",
-  databaseURL: "firebase_database_url",
-  serviceAccountKey: require('./serviceAccountKey.json'),
 
-  playings: ["/yardım | !yardım"],
+    playings: ["Lose bot #SOON"],
   prefixs: ["!"],
 }
 ```
@@ -110,7 +108,6 @@ discordjs/
 │       ├── Public/               # Herkese açık komutlar
 │       └── mod System/            # Moderasyon komutları
 ├── index.js                      # Ana giriş noktası
-├── tools.js                      # Yardımcı fonksiyonlar
 ├── start.bat                     # Windows başlatma dosyası
 ├── package.json
 └── LICENSE
@@ -129,4 +126,3 @@ discordjs/
 ## 👤 Geliştirici
 
 **@abdulrahmanqdev**
-"# discord-components-v2" 
