@@ -36,10 +36,7 @@
 - 🎨 **Components V2 Desteği** (Container, Section, Accessory, Media Gallery)
 - 🗂️ Modüler slash komut yapısı (Public & Mod)
 - 📡 Gelişmiş event handler sistemi
-- 🍃 MongoDB (Mongoose) veritabanı entegrasyonu
-- � `.env` ile güvenli yapılandırma
 - 🖱️ Windows için hazır `start.bat` başlatma dosyası
-- 🛠️ Yardımcı fonksiyonlar için `tools.js`
 
 ---
 
@@ -50,7 +47,7 @@
 | Discord.js v14 | Discord API Kütüphanesi |
 | Node.js | Çalışma Ortamı |
 | JavaScript | Dil |
-| MongoDB | Veritabanı |
+| MongoDB | Veritabanı | `İsteğe bağlı`
 
 ---
 
