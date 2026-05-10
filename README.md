@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 discordjs
+# 🤖 discordjs components v2
 
 <p align="center">
   <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
@@ -16,8 +16,8 @@
 </p>
 
 <p align="center">
-  <strong>Discord botunuz için kullanabileceğiniz v14 boş altyapı.</strong><br/>
-  Slash komutları, event handler ve Firebase desteğiyle hazır başlangıç şablonu.
+  <strong>Discord botunuz için en güncel v14 özellikleri ve Components V2 desteğiyle hazırlanmış modüler altyapı.</strong><br/>
+  Slash komutları, gelişmiş event handler ve MongoDB desteğiyle modern bot geliştirme deneyimi.
 </p>
 
 </div>
@@ -26,7 +26,7 @@
 
 ## 📖 Genel Bakış
 
-**discordjs**, Discord.js v14 kullanılarak hazırlanmış, modüler ve genişletilebilir bir Discord bot altyapısıdır. Slash komutları, event handler'lar ve Firebase entegrasyonuyla birlikte gelir. Kendi botunu hızlıca hayata geçirmek için temiz bir başlangıç noktası sunar.
+**discordjs**, en güncel Discord.js v14 özelliklerini ve yeni nesil **Components V2** (Container, Section, Media Gallery vb.) yapısını destekleyen, modüler ve yüksek performanslı bir bot altyapısıdır. Dahili slash komut sistemi, gelişmiş event handler ve MongoDB entegrasyonu ile birlikte gelir. Modern ve şık bir Discord botu geliştirmek isteyenler için temiz ve profesyonel bir başlangıç noktası sunar.
 
 ---
 
@@ -63,7 +63,7 @@
 ### Kurulum
 
 ```bash
-git clone https://github.com/abdulrahmanqdev/discordjs.git
+git clone https://github.com/abdulrahmanqdev/discord-components-v2.git
 cd discordjs
 npm install
 ```
@@ -76,10 +76,8 @@ npm install
 module.exports = {
   developersID: ["developerId"],
   token: "token",
-  databaseURL: "firebase_database_url",
-  serviceAccountKey: require('./serviceAccountKey.json'),
 
-  playings: ["/yardım | !yardım"],
+  playings: ["Lose bot #SOON"],
   prefixs: ["!"],
 }
 ```
@@ -112,7 +110,6 @@ discordjs/
 │       ├── Public/               # Herkese açık komutlar
 │       └── mod System/            # Moderasyon komutları
 ├── index.js                      # Ana giriş noktası
-├── tools.js                      # Yardımcı fonksiyonlar
 ├── start.bat                     # Windows başlatma dosyası
 ├── package.json
 └── LICENSE
@@ -131,4 +128,3 @@ discordjs/
 ## 👤 Geliştirici
 
 **@abdulrahmanqdev**
-"# discord-components-v2" 
