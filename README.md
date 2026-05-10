@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 discordjs
+# 🤖 discord components v2
 
 <p align="center">
   <img src="https://img.shields.io/badge/Discord.js-5865F2?style=for-the-badge&logo=discord&logoColor=white"/>
